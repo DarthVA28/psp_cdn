@@ -1,4 +1,4 @@
-# psp_cdn
+# PSP Content Distribution Network 
 This project is an implementation of a Peer-Server-Peer (PSP) Content Distribution Network, implemented using Python. 
 
 ## Running the Shell Script 
