@@ -1,0 +1,12 @@
+Strategy: 
+
+Server side implementation: 
+1. n UDP sockets always open, for receiving requests 
+2. n TCP sockets always open to send chunks 
+3. n UDP sockets for broadcasting
+
+Each thread operates a client 
+Receives a request from a client 
+Then calls a function "broadcast"
+Broadcast sends a message to all n clients simultaneously 
+Dont send ignore message from the client, client which has the packet sends it
